@@ -1,0 +1,138 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('Background.jpg');
+
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo2 img {
+    padding-bottom: 20%;
+}
+
+
+
+.logo {
+    text-align: center;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    /* padding-right: 800px !important; */
+
+}
+
+.logo img {
+    /* width: 150%;
+    text-align:  center; */
+    /* margin-right: 250px !important;
+    padding-right: 600px !important; */
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button {
+
+
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    padding: 2px 10px;
+    padding-right: 25px;
+    color: #D3A53D;
+    /* width: fit-content; */
+    background-color: rgba(10, 52, 64, 0.5);
+    text-decoration: none;
+    border: 1px solid #D3A53D;
+    border-radius: 2px;
+    /* font-weight: bold; */
+    width: 100px;
+    transition: background-color 0.3s ease;
+}
+
+.num7 {
+    position: absolute;
+    /* left: 10%;
+    right: 5%;  */
+    top: 67%;
+}
+
+.num1 {
+    position: absolute;
+    left: 10%;
+    right: 5%;
+    top: 72%;
+}
+
+.num2 {
+    position: absolute;
+    left: 52%;
+    right: 5%;
+    top: 72% !important;
+
+}
+
+.num3 {
+    position: absolute;
+    left: 10%;
+    right: 5%;
+    top: 80%;
+}
+
+.num4 {
+    position: absolute;
+    left: 52%;
+    right: 5%;
+    top: 80%;
+}
+
+.num5 {
+    position: absolute;
+    left: 10%;
+    right: 5%;
+    top: 88%;
+}
+
+.num6 {
+    position: absolute;
+    left: 52%;
+    right: 5%;
+    top: 88%;
+}
+
+.button:hover {
+    background-color: rgba(10, 52, 64, 0.7);
+}
+
+.button-division {
+    /* padding-bottom: 50px; */
+
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+}
+
+.button-division a {
+    font-size: 12px;
+    color: #D3A53D;
+}
+
+.button svg {
+    margin-top: 0px;
+    margin-right: 3px;
+    margin-left: 0;
+    /* margin-left: 30px; */
+}
+
