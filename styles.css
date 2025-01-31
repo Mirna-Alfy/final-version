@@ -1,0 +1,114 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  header {
+    background: #003366;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem 0;
+  }
+  
+  .about, .details, .booking {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  h2 {
+    margin-bottom: 1rem;
+    color: #003366;
+  }
+  
+  p {
+    margin-bottom: 1rem;
+  }
+  
+  .social-links a {
+    margin: 0 1rem;
+    color: #003366;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: #003366;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  .btn:hover {
+    background: #00509e;
+  }
+  
+  footer {
+    background: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
+  .cc{
+    /* line-height: 35px; */
+    color: rgb(145, 143, 143);
+}
+
+.nav-item a{
+    font-size: 14px !important;
+}
+.container:not(:first-child){
+margin-top: 150px !important;
+margin-bottom: 150px !important;
+}
+@font-face {
+    font-family: 'TS Quism';
+    src: url('fonts/TSQuism.woff2') format('woff2'),
+         url('fonts/TSQuism.woff') format('woff'),
+         url('fonts/TSQuism.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'TS Quism', sans-serif;
+}
+.social-links a {
+    font-size: 24px; /* Adjust icon size */
+    color: #f8efef; /* Default color */
+    margin: 0 10px; /* Space between icons */
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #0d6196; /* Change color on hover */
+}
